@@ -42544,7 +42544,7 @@ var $async$xX=A.V(function(a,b){if(a===1)return A.R(b,r)
 while(true)switch(s){case 0:k=p.c.b
 k===$&&A.b()
 s=3
-return A.a0(A.pt(A.fm("http://joyofjbd.com/api.php?"+("action=stationChargers&station_id="+J.bf(k.c,"station_id")))),$async$xX)
+return A.a0(A.pt(A.fm("https://joyofjbd.com/api.php?"+("action=stationChargers&station_id="+J.bf(k.c,"station_id")))),$async$xX)
 case 3:o=b
 k=o.e
 n=A.it(A.is(k).c.a.h(0,"charset"))
@@ -42561,7 +42561,7 @@ var $async$uo=A.V(function(a,b){if(a===1)return A.R(b,r)
 while(true)switch(s){case 0:n=q.c.b
 n===$&&A.b()
 s=2
-return A.a0(A.pt(A.fm("http://joyofjbd.com/api.php?"+("action=stationQueue&station_id="+J.bf(n.c,"station_id")))),$async$uo)
+return A.a0(A.pt(A.fm("https://joyofjbd.com/api.php?"+("action=stationQueue&station_id="+J.bf(n.c,"station_id")))),$async$uo)
 case 2:p=b
 o=B.av.x4(0,A.it(A.is(p.e).c.a.h(0,"charset")).cg(0,p.w),null)
 n=q.e
@@ -42604,7 +42604,7 @@ while(true)switch(s){case 0:n=p.b.a.a
 if(n===""||p.c.a.a===""||p.d.a.a===""||p.e.a.a===""){A.h4("Please fill all the fields!",2,u.b,"center")
 s=1
 break}s=3
-return A.a0(A.pt(A.fm("http://joyofjbd.com/api.php?"+("action=signup&email="+n+"&password="+p.c.a.a+"&name="+p.d.a.a+"&phone_number="+p.e.a.a+"&user_type=user"))),$async$$0)
+return A.a0(A.pt(A.fm("https://joyofjbd.com/api.php?"+("action=signup&email="+n+"&password="+p.c.a.a+"&name="+p.d.a.a+"&phone_number="+p.e.a.a+"&user_type=user"))),$async$$0)
 case 3:o=b
 if(B.c.u(A.it(A.is(o.e).c.a.h(0,"charset")).cg(0,o.w),"created")){A.h4("Customer Add Successfully.",2,u.b,"center")
 A.ki(p.f,!1).dN()}else A.h4("Something went wrong!",2,u.b,"center")
@@ -42631,7 +42631,7 @@ while(true)switch(s){case 0:l=p.b.a.a
 if(l===""||p.c.a.a===""){A.h4("Please fill all the fields!",2,u.b,"center")
 s=1
 break}s=3
-return A.a0(A.pt(A.fm("http://joyofjbd.com/api.php?"+("action=recharge&email="+l+"&amount="+p.c.a.a))),$async$$0)
+return A.a0(A.pt(A.fm("https://joyofjbd.com/api.php?"+("action=recharge&email="+l+"&amount="+p.c.a.a))),$async$$0)
 case 3:o=b
 l=o.e
 n=A.it(A.is(l).c.a.h(0,"charset"))
@@ -42707,7 +42707,7 @@ var $async$xZ=A.V(function(d,e){if(d===1)return A.R(e,r)
 while(true)switch(s){case 0:if(b===""||c===""){A.h4("Email or Password shouldn't be empty!",2,u.b,"center")
 s=1
 break}s=3
-return A.a0(A.pt(A.fm("http://joyofjbd.com/api.php?"+("action=login&user_type=admin&email="+b+"&password="+c))).bS(new A.a2T(p,b,c,a),t.P),$async$xZ)
+return A.a0(A.pt(A.fm("https://joyofjbd.com/api.php?"+("action=login&user_type=admin&email="+b+"&password="+c))).bS(new A.a2T(p,b,c,a),t.P),$async$xZ)
 case 3:case 1:return A.S(q,r)}})
 return A.T($async$xZ,r)},
 K(a){var s=null
@@ -42763,10 +42763,10 @@ $1(a){var s,r,q={}
 q.a="action=stationChargers&station_id=1"
 s=this.a
 r=t.P
-A.pt(A.fm("http://joyofjbd.com/api.php?action=stationChargers&station_id=1")).bS(new A.ac9(s),r)
+A.pt(A.fm("https://joyofjbd.com/api.php?action=stationChargers&station_id=1")).bS(new A.ac9(s),r)
 if(s.f)return
 q.a="action=info"
-A.pt(A.fm("http://joyofjbd.com/api.php?action=info")).bS(new A.aca(q,s),r)},
+A.pt(A.fm("https://joyofjbd.com/api.php?action=info")).bS(new A.aca(q,s),r)},
 $S:75}
 A.ac9.prototype={
 $1(a){var s,r=a.e,q=A.it(A.is(r).c.a.h(0,"charset")),p=a.w
@@ -42803,7 +42803,7 @@ return A.akb(A.fh(A.pU(A.e0(this.c,s,s,s,B.NA,s,s),s,s),180,s),B.OD)},
 $S:79}
 A.ac6.prototype={
 $0(){this.a.a="action=info&msg=none"
-A.pt(A.fm("http://joyofjbd.com/api.php?action=info&msg=none"))
+A.pt(A.fm("https://joyofjbd.com/api.php?action=info&msg=none"))
 A.ki(this.c,!1).dN()
 this.b.f=!1},
 $S:5}
